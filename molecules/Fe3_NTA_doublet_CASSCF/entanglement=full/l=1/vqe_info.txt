@@ -1,0 +1,12 @@
+Molecule: Fe3_NTA_doublet_CASSCF
+Number of Qubits: 10
+Spin up: 3
+Spin down: 2
+Number of layers: 1
+Number of parameters: 20
+Lowest infidelity: 0.13958553686088349
+Lowest energy: -2149.2827247829787
+Exact energy: -2149.302366119807
+First excited state energy: -2149.2815511997273
+Deviation from exact energy: 0.019641336828499334
+Maxfev: 100
