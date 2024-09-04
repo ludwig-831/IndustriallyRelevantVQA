@@ -1,0 +1,11 @@
+matplotlib==3.7.1
+numpy==1.23.0
+PyYAML==6.0
+PyYAML==6.0.2
+qiskit==0.45.3
+qiskit_aer==0.12.2
+qiskit_ibmq_provider==0.20.2
+qiskit_nature==0.7.0
+qiskit_terra==0.45.3
+scipy==1.14.1
+tqdm==4.65.0
