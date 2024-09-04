@@ -1,14 +1,13 @@
-# Qiskit Versions:
+# How to use
+To execute the parameter optimization, run noisy_vqe.py
+Change the backend from qiskit's Aer simulator backend to the hardware backend you are using.
+You will find the results in a subfolder of "molecules/", the path depends on the settings you chose.
+The molecule names "Fe3_NTA_doublet_CASSCF" and "Fe3_NTA_quartet_CASSCF" denote the low and intermediate
+spin states.
+Change the molecule name to run the process for the different cases.
 
-pytket-qiskit                 0.44.0  
-qiskit                        0.45.3  
-qiskit-aer                    0.12.2  
-qiskit-algorithms             0.2.1  
-qiskit-ibm-provider           0.7.2  
-qiskit-ibm-runtime            0.12.2  
-qiskit-ibmq-provider          0.20.2  
-qiskit-ionq                   0.4.4  
-qiskit-nature                 0.7.0  
-qiskit-qasm3-import           0.2.0  
-qiskit-qir                    0.4.0  
-qiskit-terra                  0.45.3  
+Make sure that the raw data is saved by your backend as well.
+The NoisyVQE class does not do this, as the backend we used did not require it.
+The raw data is needed to execute run_configurationRecovery.py and needs to be in the same format as the data
+in Results/.../full_result.yml.
+Alternatively one can change the way data is loaded.
